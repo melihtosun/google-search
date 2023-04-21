@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(32, 33, 36);
+}
+
+.search-block {
+  display: grid;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
+
+#gsearch {
+  margin: auto;
+  display: block;
+  width: 582px;
+  height: 46px;
+  border-radius: 200px;
+  background-color: rgb(32, 33, 36);
+  border-style: solid;
+  border-width: 1px;
+  
+}
+
+#gsearch:hover {
+  background-color:#303134;
+  border: none;
+}
+
+input, select, textarea {
+  color: white;
+  text-indent: 12px;
+  }
+
+.button-1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+  text-decoration: none;
+  border: none;
+  background-color: #303134;
+  border-radius: 5px;
+  padding: 13px 22px;
+  margin-top: 11px;
+
+  
+}
+
+.button-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+  text-decoration: none;
+  border: none;
+  background-color: #303134;
+  border-radius: 5px;
+  padding: 13px 22px;
+  margin-left: 16px;
+  margin-top: 11px;
+
+}
+
+.buttons {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.gb_p {
+  height: 30px;
+  padding-right: 20px;
+  color: white;
+  padding-top: 5px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: right;
+}
+
+.profile {
+  width: 40px;
+  padding-right: 20px;
+  border-radius: 50%;
+}
+
+.gmail {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.imgs {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+  padding-top: 10px;
+  
+}
